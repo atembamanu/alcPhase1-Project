@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".AboutALC">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/atoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/aToolbar"
+        android:fontFamily="sans-serif"
+        app:title="@string/activity_about_alc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:titleTextColor="#ffffff">
+    </androidx.appcompat.widget.Toolbar>
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        />
+
+
+
+</LinearLayout>
+

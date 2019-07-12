@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3259df</color>
+    <color name="colorPrimaryDark">#3259df</color>
+    <color name="colorAccent">#FF9800</color>
+
+
+    <!--app colors-->
+
+    <color name="widgetsColor">#FF9800</color>
+    <color name="aToolbar">#3259df</color>
+</resources>
